@@ -1,0 +1,31 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore build and dist folders
+/build/
+/dist/
+
+# Ignore Electron-packager output folder
+*win32*/
+
+# Ignore Python cache files and folders
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore log files
+*.log
+
+# Ignore .env files
+.env
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Visual Studio Code settings folder
+.vscode/
