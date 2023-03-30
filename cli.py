@@ -54,7 +54,7 @@ class Bot:
         timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         with open("conversation_history.txt", "a") as history_file:
             history_file.write(f"{timestamp} You: {prompt}\n")
-            history_file.write(f"{timestamp} Sanjay: {reply}\n")
+            history_file.write(f"{timestamp} Response: {reply}\n")
 
         return reply, metadata, response["usage"]["total_tokens"]
 
@@ -111,7 +111,6 @@ class Bot:
 bot_instance = Bot()
 
 def main():
-    print("Welcome to the Sanjay chat! Type 'quit' to exit.")
     while True:
         user_input = input("You: ")
 

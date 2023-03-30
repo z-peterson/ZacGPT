@@ -62,3 +62,6 @@ def find_available_port(starting_port):
             if result != 0:
                 return port
             port += 1
+
+if __name__ == '__main__':
+    app.run(debug=True)

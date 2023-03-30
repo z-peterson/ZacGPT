@@ -29,3 +29,7 @@ Thumbs.db
 
 # Ignore Visual Studio Code settings folder
 .vscode/
+conversation_history.txt
+monthly_tokens.csv
+chat-app/package-lock.json
+chat-app/package.json
